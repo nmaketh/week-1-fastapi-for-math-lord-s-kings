@@ -12,10 +12,12 @@ def f(x):
     pass
  
 #Implement the formula MX + B
+Y = MX + B
 #Have two function one using numpy and another not using numpy
 #Return 
 
 #initialize x as a 5 * 5 matrix
+x = np.random.rand(5,5)
 
 #Make a call to the function
 
