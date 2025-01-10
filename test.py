@@ -12,6 +12,7 @@ def f(x):
     pass
  
 #Implement the formula MX + B
+y = MX + B
 #Have two function one using numpy and another not using numpy
 #Return 
 
