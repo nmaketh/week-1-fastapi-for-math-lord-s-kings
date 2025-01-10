@@ -8,16 +8,22 @@ app = FastAPI()
 '''
     Initialize M and B as np arrays
 '''
+M = np.random.rand(5,5)
+B = np.random.rand(5,5)
 def f(x):
     pass
  
-#Implement the formula MX + B
+#Implement the formula 
 #Have two function one using numpy and another not using numpy
 #Return 
+def f(x):
+    y = np.dot(M,x) + B
+    return y
 
 #initialize x as a 5 * 5 matrix
-
+x = np.random.rand(5,5)
 #Make a call to the function
+f(x)
 
 #Recreate the function with the sigmoid Function
 
